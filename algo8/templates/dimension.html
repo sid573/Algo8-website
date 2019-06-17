@@ -1,0 +1,202 @@
+{% extends "layouts/dim_layout.html" %}
+{% block body %}
+
+        <header class="masthead">
+            <div class="container">
+                <div class="intro-text">
+                    <!-- <div class="intro-lead-in">Matrix presents</div> -->
+                    <img width = "200px" height = "200px" src = "/static/assets/img/matrix1.png"></img>
+                    <!-- <h1>MATRIX</h1> -->
+                    <h5 style = "bottom: 8px; left: 16px;font-weight: normal;">presents</h5>
+                    <!-- <img height = "200px" src = "/static/img/logo_dimension.png' %}" alt = "logo"></img> -->
+                    <div class="intro-heading text-uppercase">Dimension</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Services -->
+        <section id="services" style="background-color: black; color: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Dimension</h2>
+                        <h3 class="section-subheading text-muted">The Annual Tech Fest of Department of Mathematics, IIT Guwahati</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                            <div id="anime" style="padding: 100px;"></div>
+                            <h4>INNOVATON</h4>
+                    </div>
+                
+                    <div class="col-md-4">
+                            <div id="wallet" style="padding: 100px;"></div>
+                            <h4>NETWORKING</h4>
+                    </div>
+                
+                    <div class="col-md-4">
+                            <div id="finance" style="padding: 100px;"></div>
+                            <h4>FINANCE</h4>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section id="portfolio" style="background-color: black; color: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Events</h2> 
+                    </div>
+                </div>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 portfolio-item" id="latex" style="padding: 50px; overflow-x: hidden;">
+                    </div>
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <div class="text-center">
+                            <h3>LATEX WORKSHOP</h3>
+                            <br>
+                            <p class="text-center">
+                                Matrix presents “DIMENSION 2019” in association with SIAM. This time we have got this chance to organize “LATEX WORKSHOP” for the students of NORTH-EAST. We have one of the experienced Research Scholar of IIT Guwahati Mr Rakesh Jana from Department of Mathematics who is going to conduct this Workshop.<br>
+
+                                This is the golden opportunity for you all to add something extra to your skill set which will be the difference among you and others. We are hoping a large number of students to turn up but we have limited space so hurry up !!!<br><br>
+                                <b><span class="text-center">VENUE : Conference Hall , IIT Guwahati <br> DATE : 21st, April , 2019</span></b>
+                            </p>
+                                    <a href="https://tinyurl.com/dimension-latex" class="btn btn-success"> REGISTER </a> 
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <div class="text-center">
+                            <h3>LECTURE SERIES</h3>
+                            <br>
+                            <p class="text-center">
+                                <h2>SANKARSHAN BASU</h2>
+                                Professor , Finance and Accounting Department at IIM Bangalore<br>
+                                <b><span class="text-center">VENUE : Conference Hall , IIT Guwahati <br> DATE : 21st, April , 2019<br> TIME: 12:00 pm</span></b>
+                                <div class="space"></div>
+                                <h2>GOPAL. V</h2>
+                                Professor , Finance and Accounting Department at IIM TRICHY<br>
+                                <b><span class="text-center">VENUE : Conference Hall , IIT Guwahati <br> DATE : 21st, April , 2019 <br>
+                                TIME: 2:00 pm</span></b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 portfolio-item" id="webinar" style="padding: 100px; overflow-x: hidden;">
+                    </div>
+                </div>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 portfolio-item" id="hack" style="padding: 100px; overflow-x: hidden;">
+                    </div>
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <div class="text-center">
+                            <h3>HACKATHON</h3>
+                            <br>
+                            <p class="text-center">
+                                This time Dimension brings a different type of Hackathon for the "Students of Department of Mathematics IIT Guwahati" in which the main aim is to provide every student an opportunity to learn for their seniors and this will help us to stregthen the "BOND" between Senior and Junior.<br><br>
+                                <b><span class="text-center">VENUE : Conference Hall , IIT Guwahati <br> DATE : 21st, April , 2019</span></b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <div class="text-center">
+                            <h3>GAME IS ON!</h3>
+                            <br>
+                            <p class="text-center">
+                                <img src="/static/img/matrix_events/pubg.png" width="380px;"><br><br>
+                                <b><span class="text-center">ELIGIBILITY : Students of Mathematics Department , IIT Guwahati <br> DATE : 20st, April , 2019</span></b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 portfolio-item" id="pubg" style="padding: 100px; overflow-x: hidden;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <script type="text/javascript">
+        var animation = bodymovin.loadAnimation({
+          container: document.getElementById('anime'), // Required
+          path: '/static/animation/header.json', // Required
+          renderer: 'svg/canvas/html', // Required
+          loop: true, // Optional
+          autoplay: true, // Optional
+          name: "Hello World", // Name for future reference. Optional.
+        })
+
+        var animate = bodymovin.loadAnimation({
+          container: document.getElementById('wallet'), // Required
+          path: '/static/animation/connect.json', // Required
+          renderer: 'svg/canvas/html', // Required
+          loop: true, // Optional
+          autoplay: true, // Optional
+          name: "Hello World", // Name for future reference. Optional.
+        })
+
+        var finance = bodymovin.loadAnimation({
+          container: document.getElementById('finance'), // Required
+          path: '/static/animation/finance.json', // Required
+          renderer: 'svg/canvas/html', // Required
+          loop: true, // Optional
+          autoplay: true, // Optional
+          name: "Hello World", // Name for future reference. Optional.
+        })
+
+        var finance = bodymovin.loadAnimation({
+          container: document.getElementById('latex'), // Required
+          path: '/static/animation/latex.json', // Required
+          renderer: 'svg/canvas/html', // Required
+          loop: true, // Optional
+          autoplay: true, // Optional
+          name: "Hello World", // Name for future reference. Optional.
+        })
+
+        var comming = bodymovin.loadAnimation({
+          container: document.getElementById('soon'), // Required
+          path: '/static/animation/comming.json', // Required
+          renderer: 'svg/canvas/html', // Required
+          loop: true, // Optional
+          autoplay: true, // Optional
+          name: "Hello World", // Name for future reference. Optional.
+        })
+
+        var youtube = bodymovin.loadAnimation({
+          container: document.getElementById('webinar'), // Required
+          path: '/static/animation/youtube.json', // Required
+          renderer: 'svg/canvas/html', // Required
+          loop: true, // Optional
+          autoplay: true, // Optional
+          name: "Hello World", // Name for future reference. Optional.
+        })
+
+        var hack = bodymovin.loadAnimation({
+          container: document.getElementById('hack'), // Required
+          path: '/static/animation/hackathon.json', // Required
+          renderer: 'svg/canvas/html', // Required
+          loop: true, // Optional
+          autoplay: true, // Optional
+          name: "Hello World", // Name for future reference. Optional.
+        })
+
+        var game = bodymovin.loadAnimation({
+          container: document.getElementById('pubg'), // Required
+          path: '/static/animation/pubg.json', // Required
+          renderer: 'svg/canvas/html', // Required
+          loop: true, // Optional
+          autoplay: true, // Optional
+          name: "Hello World", // Name for future reference. Optional.
+        })
+    </script>
+
+    {% endblock %}
