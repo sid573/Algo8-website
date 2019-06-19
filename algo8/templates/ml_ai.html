@@ -1,0 +1,211 @@
+{% extends "layouts/unknownbase.html" %}
+{% block style%}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="/static/assets/css/main.css" />
+
+<style>
+         
+  .sidenav1 {
+  height: 50%;
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.sidenav1 a {
+
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+
+}
+
+.sidenav1 a:hover {
+  color: #f1f1f1;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav1 {padding-top: 15px;}
+  .sidenav1 a1 {font-size: 18px;}
+}
+         
+</style>
+    
+{%endblock%}
+{% block body %}
+    
+    <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <img src="static/assets/img/logo_banner.svg" width="400px"><br> 
+          <h2 style = "font-weight: bold; color: red; display: inline;">E</h2><h3 style = "display: inline;">mpowering</h3> 
+          <h2 style = "font-weight: bold; color: red; display: inline;">&nbsp;E</h2><h3 style = "display: inline;">nterprises</h3>
+          <h2 style = "font-weight: bold; color: red; display: inline;">&nbsp;</h2><h3 style = "display: inline;">through</h3>
+          <h2 style = "font-weight: bold; color: red; display: inline;">&nbsp;</h2><h3 style = "display: inline;">pre</h3>
+          <h2 style = "font-weight: bold; color: red; display: inline;">&nbsp;</h2><h3 style = "display: inline;">built</h3>
+          <h2 style = "font-weight: bold; color: red; display: inline;">&nbsp;</h2><h3 style = "display: inline;">and</h3>
+          <h2 style = "font-weight: bold; color: red; display: inline;">&nbsp;</h2><h3 style = "display: inline;">custom</h3>
+          <h2 style = "font-weight: bold; color: red; display: inline;">&nbsp;A</h2><h3 style = "display: inline;">rtificial</h3>
+          <h2 style = "font-weight: bold; color: red; display: inline;">&nbsp;I</h2><h3 style = "display: inline;">ntelligence</h3>
+          <p style = "font-size: 22px;">We create full data and AI driven tech which is decisive in driving our clients growth</p>
+        </div>
+        <video autoplay loop muted playsinline src="/static/images/banner.mp4"></video>
+      </section>
+
+<section>
+    <div class="sidenav1">
+      <a href="#build" style="padding-right: 50px;
+        padding-left: 850px;" id="build_btn">BUILD</a>
+      <a href="#advice" style="padding-right: 50px" id="advice_btn">ADVICE</a>
+    </div>     
+</section>
+
+<br>
+<br>  
+<section>
+  <div class="container" id="div1"> 
+  <div class="text-center">
+    <h1>BUILD</h1>
+  </div> 
+  <hr>
+          <div class="uk-child-width-1-2@m" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="/static/algo_images/people.jpg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">PEOPLE</h3>
+                        <p>We provide you with a ready team empowered with our intellect which can readily function on the solution platform from the get go, marking your efficency from day one.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Data Lake</h3>
+                        <p>Store external and internal data on a distributed platforms, which maintains flexibility, security and scalability for any big data initiative.</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="/static/algo_images/data_lake.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <div class="uk-child-width-1-2@m" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="/static/algo_images/algorithm.jpg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Algorithm</h3>
+                        <p>Based on advanced learning methods such as supervised, unsupervised and reinforced learning methods.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title"> UI</h3>
+                        <p> Creating the data driven business brain and organizations.</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="/static/algo_images/ui.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>                             
+    </div>                                    
+</section>
+
+<br><br><br>
+<section>
+  <div class="container" id="div2"> 
+  <div class="text-center">
+    <h1>ADVICE</h1>
+  </div> 
+  <hr>
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div class="uk-card-media-left uk-cover-container">
+        <img src="/static/algo_images/access.jpg" alt="" uk-cover>
+        <canvas width="300" height="200"></canvas>
+    </div>
+    <div>
+        <div class="uk-card-body text-center">
+            <h3 class="uk-card-title"><b>Access</b></h3>
+            <p>We assess an enterprise on our proprietary AI maturity model formulated in collaboration with global IT think tanks to map organization readiness for AI implementation</p>
+        </div>
+    </div>
+</div>
+
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+        <img src="/static/algo_images/lead.jpg" alt="" uk-cover>
+        <canvas width="300" height="200"></canvas>
+    </div>
+    <div>
+        <div class="uk-card-body text-center">
+            <h3 class="uk-card-title"><b>Lead</b></h3>
+            <p>Immersive data science experiential program designed specifically for leadership teams to build an AI first enabled enterprise by mining AI opportunities in your organization</p>
+        </div>
+    </div>
+</div>
+
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div class="uk-card-media-left uk-cover-container">
+        <img src="/static/algo_images/create.jpg" alt="" uk-cover>
+        <canvas width="300" height="200"></canvas>
+    </div>
+    <div>
+        <div class="uk-card-body text-center">
+            <h3 class="uk-card-title"><b>Create</b></h3>
+            <p>We help enterprises to envision the future of a data driven organization and help them create AI roadmap which encircles technology ,people and policies</p>
+        </div>
+    </div>
+</div>                                   
+  </div>
+</section>
+
+<br> <br>
+    
+   
+
+    <!-- Scripts -->
+      <script src="/static/assets/js/jquery.min.js"></script>
+      <script src="/static/assets/js/browser.min.js"></script>
+      <script src="/static/assets/js/breakpoints.min.js"></script>
+      <script src="/static/assets/js/util.js"></script>
+      <script src="/static/assets/js/main.js"></script>
+
+<script type="text/javascript">
+  $(function(){
+    $("#div2").hide();
+    $('#build_btn').css('color', '#FFFFFF');
+    $("#advice_btn").on("click", function(){
+        $("#div1, #div2").toggle();
+        $("#advice_btn").css('color', '#FFFFFF');
+        $('#build_btn').css('color', '#818181');
+    });
+    $("#build_btn").on("click", function(){
+        $("#div1, #div2").toggle();
+        $("#advice_btn").css('color', '#818181');
+        $('#build_btn').css('color', '#FFFFFF');
+        
+    });
+});
+</script>
+
+{% endblock %}

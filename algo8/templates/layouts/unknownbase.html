@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Matrix</title>
+        <title>Algo8</title>
         <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
@@ -11,14 +11,20 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <link rel="stylesheet" href="/static/css/w3.css">
         <link href ="/static/css/style.css" rel="stylesheet" media="all">
-        <link rel="shortcut icon" href="/static/home/image/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/static/home/image/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="/static/home/image/logo.ico" type="image/x-icon">
+        <link rel="icon" href="/static/home/image/logo.ico" type="image/x-icon">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- CSS Files -->
     <link href="/static/assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/static/assets/css/now-ui-kit.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/css/uikit.min.css" />
+        <script src="/static/js/uikit.min.js"></script>
+        <script src="/static/js/uikit-icons.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116573840-1"></script>
 <script>
@@ -30,12 +36,12 @@
 </script>
        
  <style>
-            body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-            .w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+            body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif}
+            .w3-navbar,h1,button {font-family: "Helvetica", sans-serif}
             .fa-anchor,.fa-coffee,.fa-calculator,.fa-line-chart,.fa-code{font-size:200px}
 
             * {box-sizing:border-box}
-            body {font-family: Verdana,sans-serif;}
+            body {font-family: Helvetica,sans-serif;}
 
             /* Slideshow container */
             .slideshow-container {
@@ -100,6 +106,7 @@
             /* On smaller screens, decrease text size */
             @media only screen and (max-width: 300px) {
               .text {font-size: 11px}
+              #
             }
         </style>
         <link rel="stylesheet" href="/static/assets/css/main.css" />
@@ -107,85 +114,86 @@
     </head>
     <body class="is-preload">
 
-  
+    
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
-        
-            <div class="navbar-translate">
-                <div class="float-left">
-              <img src="static/assets/img/logo_nav1.svg" width="80px">
+    <nav class="uk-navbar-container" uk-navbar uk-sticky style="background-color: black;">
+      <div class="uk-navbar-left">
+        <a href="/"><img src="static/assets/img/logo_nav1.svg" width="80px" style="padding-left:30px; "></a>
+      </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav">
+            <li>
+                <a href="/products">Products</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="/products">Pre-Build AI</a></li>
+                    </ul>
                 </div>
+            </li>
+            <li>
+                <a href="#">Solutions</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="/ml_ai">ML & AI</a></li>
+                        <li><a href="/custom_ai">Custom AI</a></li>
+                        <li> <a href="/banking">Banking</a></li>
+                        <li> <a href="/retail">Retail</a></li>
+                        <li><a href="/telecom">Telecom</a></li>
+                        <li><a href="/insurance">Insurance</a></li>
+                        <li><a href="/healthcare">Healthcare</a></li>
+                        <li><a href="/manufacturing">Manufacturing</a></li>
+                        <li><a href="/government">Government</a></li>
+                        <li><a href="/oil_natural_gas">Oil & Natural Gas</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="/career">Career</a></li>
+            <li><a href="/team">Team</a></li>
+        </ul>
 
-                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end " id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
-                <ul class="navbar-nav">
-
-                 <li class="nav-item">
-                        <a class="nav-link" style="text-decoration: none" href="dimension">
-                            
-                            <p style="font-size: 15px;">Products</p>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" style="text-decoration: none" href="events">
-                            
-                            <p style="font-size: 15px;">Services</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="text-decoration: none" href="team">
-                            
-                            <p style="font-size: 15px;">Industries</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="text-decoration: none" href="team">
-                            
-                            <p style="font-size: 15px;">Careers</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="text-decoration: none" href="team">
-                            
-                            <p style="font-size: 15px;">Team</p>
-                        </a>
-                      </li>
-                </ul>
-            </div>
-        
-    </nav>
+    </div>
+</nav>
+    
     {% block body %}{% endblock %}
     <!-- Footer -->
       <footer id="footer" style="padding-top: 70px;">
         <div class="inner">
           <div class="content">
             <section>
-              <div height = "300" width = "500" class="fb-page" data-href="https://www.facebook.com/MatrixIITG/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MatrixIITG/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MatrixIITG/">Matrix, IIT Guwahati</a></blockquote></div> <br><br>
+                <script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(28.5763927,77.3441077),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmOgEFIZH0KPkUYmBi6B31ujqBmiq4WU0&callback=myMap"></script>
+
+              <div height = "300" width = "500" class="fb-page" data-href="https://www.facebook.com/algo8ai/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/algo8ai/" class="fb-xfbml-parse-ignore"><a href="https://www.google.com/maps/dir/28.5763927,77.3441077/algo8/@28.5974521,77.3230187,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390ce5c8586de8c1:0x89fbe12a3a42e896!2m2!1d77.3739061!2d28.6270134">Algo8, A-116 Sector-62, Noida, Uttar Pradesh-222002, India</a></blockquote></div> <br><br>
             </section>
             <section>
               <h3>Quick links</h3>
               <ul class = "alt">
-                <li><a href="https://www.iitg.ernet.in/maths/" target="_blank"> Department of Maths, IITG</a> </li>
-                <li><a href="dimension"> Dimension </a></li>
-                <li><a href="events"> Event Calendar </a></li>
+                <li><a href="products"> Products </a> </li>
+                <li><a href="solutions"> Solutions </a></li>
+                <li><a href="careers"> Careers </a></li>
+                <li><a href="team"> Teams </a></li>
             </section>
             <section>
               <h4>Follow us</h4>
               <ul class="plain">
-                <li><a href="https://www.facebook.com/MatrixIITG/" target="_blank"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
-                <li><a href="https://www.linkedin.com/in/matrixiitg/" target="_blank"><i class="icon fa-linkedin">&nbsp;</i>Linkedin</a></li>
-                <li><a href="https://github.com/matrix-iitg" target="_blank"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+                <li><a href="https://www.facebook.com/algo8ai/" target="_blank"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+                <li><a href="https://www.linkedin.com/company/algo8/" target="_blank"><i class="icon fa-linkedin">&nbsp;</i>Linkedin</a></li>
+                  <li><a href="https://github.com/sid573/Algo8-website" target="_blank"><i class="icon fa-youtube">&nbsp;</i>Youtube</a></li>
               </ul>
             </section>
           </div>
           <div class="copyright">
-            &copy; Matrix
+            &copy; Algo8
           </div>
         </div>
       </footer>
@@ -194,66 +202,44 @@
 <script src="/static/assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
 <script src="/static/assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="/static/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-<script src="/static/assets/js/now-ui-kit.js" type="text/javascript"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        // the body of this function is in assets/js/now-ui-kit.js
-        nowuiKit.initSliders();
-    });
-
-    function scrollToDownload() {
-
-        if ($('.section-download').length != 0) {
-            $("html, body").animate({
-                scrollTop: $('.section-download').offset().top
-            }, 1000);
-        }
-    }
+  $('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
 </script>
-
-
-    <script>
-        // Used to toggle the menu on small screens when clicking on the menu button
-        function myFunction() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-        var slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-               slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex> slides.length) {slideIndex = 1}
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-            setTimeout(showSlides, 5000); // Change image every 5 seconds
-        }
-
-
-    </script>
-
-    <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 {% block script %}{% endblock %}
     </body>
 </html>
+
+
+<!-- 
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
+   Dropdown <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li class="dropdown">
+      <a href="#">One more dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li class="dropdown">
+          <a href="#">One more dropdown</a>
+          <ul class="dropdown-menu">
+          ...
+          </ul>
+        </li>
+        <li><a href="#">Something else here</a></li>
+        <li><a href="#">Separated link</a></li>
+       </ul>
+    </li>
+    <li><a href="#">Something else here</a></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+-->
+

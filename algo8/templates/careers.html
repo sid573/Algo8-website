@@ -1,0 +1,346 @@
+{% extends "layouts/unknownbase.html" %}
+{% block style%}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="/static/assets/css/main.css" />
+
+<style>
+         
+  .sidenav1 {
+  height: 50%;
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.sidenav1 a {
+
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+
+}
+
+.sidenav1 a:hover {
+  color: #f1f1f1;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav1 {padding-top: 15px;}
+  .sidenav1 a1 {font-size: 18px;}
+}
+         
+</style>
+    
+{%endblock%}
+{% block body %}
+    
+  <header class="header">
+    <div class="container">
+        <!-- title area -->
+        <div class="col-lg-9 col-md-12 col-sm-12">
+          <nav class="uk-navbar-container">
+            <div class="uk-container uk-container-expand">
+                <div uk-navbar>
+
+                    <ul class="uk-navbar-nav">
+                       <li>
+             <a>Careers<span>&nbsp;With Us</span></a></li>
+                            <li><a href="#">Job Openings</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">Full Stack Developer</a></li>
+                                    <li><a href="#">Data Scientist</a></li>
+                                    <li><a href="#">Business Development Lead</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Internship Openings</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">Front-End Developer</a></li>
+                  <li><a href="#">Back-End Developer</a></li>
+                                    <li><a href="#">Data Science Internship</a></li>
+                                    <li><a href="#">Content Writer</a></li>
+                                                  </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+          <!-- nav -->
+        </div>
+        <!-- title area -->
+      <!-- site header -->
+    </div>
+    <!-- end container -->
+  </header>
+  <!-- end header -->
+
+  <div class="uk-section-default">
+    <div class="uk-section uk-light uk-background-cover" style="background-image: url(/static/algo_images/intro--bg.jpg)">
+        <div class="uk-container">
+
+            <h3>Algo8 brings industry insight and consulting experience together in a fluid package to add value in a way that creates win-win solutions.</h3>
+
+            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                <div>
+                    <p>We leverage our Industry specific packages of proprietary platforms and products to build AI that drives impact</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<section>
+
+
+</section>
+<br><br><br>
+
+<div class="uk-child-width-expand@s uk-text-center" uk-grid>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+          <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="80" height="80" src="/static/algo_images/fullstack.png">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Full Stack Development</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <p>Design and development of front-end and back-end software.</p>
+            </div>
+            <div class="uk-card-footer">
+                <a class="uk-button uk-button-default" href="#modal-sections1" uk-toggle>Read More</a>
+                <a class="uk-button uk-button-default" href="#modal-sections4" uk-toggle>Apply</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+          <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="80" height="80" src="/static/algo_images/datas.png">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Data Scientist</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <p>We are looking for a data scientist that will help us discover the information hidden in vast amounts of data, and help us make smarter decisions to deliver even better products.</p>
+            </div>
+            <div class="uk-card-footer">
+                <a class="uk-button uk-button-default" href="#modal-sections2" uk-toggle>Read More</a>
+                <a class="uk-button uk-button-default" href="#modal-sections5" uk-toggle>Apply</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+          <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="80" height="80" src="/static/algo_images/bd.png">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Business Development Lead</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+            <p>As a Business Development Lead you will help  us creating a context by connecting technology to the frames of reference of customers.</p>
+            </div>
+            <div class="uk-card-footer">
+                <a class="uk-button uk-button-default" href="#modal-sections3" uk-toggle>Read More</a>
+                <a class="uk-button uk-button-default" href="#modal-sections6" uk-toggle>Apply</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section>
+
+</section>
+
+    <div id="modal-sections1" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Full Stack Development Job Description</h2>
+        </div>
+        <div class="uk-modal-body">
+        <p><strong>Responsibilities</strong></p>
+                    <ul><li><strong>Requirement analysis:</strong>
+                Determining what, if any, additional information is needed in order to complete a task/project
+                and reaching out to the correct entities in order to obtain this information, communicating
+                about any potential misunderstandings (e.g. if the requested changes could break or damage
+                the existing software and business processes)</li>
+                <li><strong>Designing:</strong>
+                Foreseeing problems that could arise during coding and then preventing them by planning out
+                any development beforehand, researching and quickly evaluating the viability of any tools or
+                techniques that could accelerate development while simultaneously increasing the
+                durability/performance/readability of the resulting code
+                </li>
+                <li><strong>Coding:</strong>
+                Doing so in a way that adheres to company best practices, and that correctly implements the
+                design and addresses the requirements
+                </li>
+                <li><strong>Testing/debugging:</strong>
+                Planning and carrying out tests (use-case analysis, unit testing, integration testing), detecting
+                bugs in existing products and communicating about them or fixing them as appropriate.
+                </li>
+                <li><strong>Documentation:</strong>
+                Authoring of documentation needed by users and implementation partners
+                </li>
+                <li><strong>Innovation:</strong>
+                Noticing and proposing potential improvements to existing products
+                </li>
+                </ul>
+                <p><strong>Skills Required</strong></p>
+                <ul>
+                <li>Minimum of 2-3 years of experience in building/operating highly available, distributed systems of data extraction, ingestion, and processing of large data sets.</li>
+                <li>High skill at all layers of the application stack (database, application, web back-end, web frontend,
+                light design work).</li>
+                <li>.NET Framework</li>
+                <li>C#</li>
+                <li>SQL language</li>
+                <li>SQL Server</li>
+                <li>IIS 7.0</li>
+                <li>ASP.NET</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+    <div id="modal-sections2" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Data Scientist Job Description</h2>
+        </div>
+        <div class="uk-modal-body">
+        <p><strong>Responsibilities</strong></p>
+            <ul><li>Work with stakeholders throughout the organization to identify opportunities for leveraging company data to drive business solutions.</li>
+            <li>Mine and analyze data from company databases to drive optimization and improvement of product development, marketing techniques and business strategies.</li>
+            <li>Selecting features, building and optimizing classifiers using machine learning techniques.</li>
+            <li>Assess the effectiveness and accuracy of new data sources and data gathering techniques.</li>
+            <li>Develop custom data models and algorithms to apply to data sets.</li>
+            <li>Use predictive modeling to increase and optimize customer experiences, revenue generation, ad targeting and other business outcomes.</li>
+            <li>Develop company A/B testing framework and test model quality.</li>
+            <li>Coordinate with different functional teams to implement models and monitor outcomes.</li>
+            <li>Develop processes and tools to monitor and analyze model performance and data accuracy.</li></ul>
+            <p><strong>Skills Required</strong></p>
+            <ul>
+            <li>2-3 years of experience, has a Bachelors or Master’s degree in Statistics, Mathematics, Computer Science or another quantitative field, and is familiar with the following software/tools.</li>
+            <li>NLP – Speech recognition, Good to have: NLTK (good to have but not necessary).</li>
+            <li>Must have: Python, NumPy, SciPy, scikit- learn, matplotlib.</li>
+            <li>Should Have: TensorFlow (should have run some tensor flow code and should be able to debug).</li>
+            <li>Experience in using statistical computer languages (R, Python, etc.) to manipulate data and draw insights from large data sets.</li>
+            <li>Knowledge and experience in statistical and data mining techniques: GLM/Regression, Random Forest, Boosting, Trees, text mining, social network analysis, etc.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div id="modal-sections3" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Business Development Lead Job Description</h2>
+        </div>
+        <div class="uk-modal-body">
+        <ul><li>Responsible for P&L driven decisions for the assigned area.</li>
+          <li>Identifying and finalizing new properties, and for maintaining relationship with all stakeholders to run these properties profitably.</li>
+          <li>Responsible for end-to-end business development of the assigned area; includes planning and building short-term and long-term supply.</li>
+          <li>Cross-functional approach through coordination with multiple teams in inter and Intra geographies.</li>
+          <li>Creating a balance in inventory growth and demand to ensure optimization.</li>
+          <li>Proposes potential business deals by contacting potential partners; discovering and exploring opportunities.</li>
+          <li>1-3 years of relevant experience in sales and business development.</li>
+          <li>Experience in early-stage start-up environments would be an advantage.</li>
+          <li>Focused and possess sales mindset.</li>
+          <li>Fluent communication and ability to manage situations on the ground.</li>
+          <li>Intelligent, enthusiastic and self-motivation driven.</li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+    <div id="modal-sections4" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Application Form</h2>
+        </div>
+        <div class="uk-modal-body">
+        <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=68-3CH6Jm0aUNpdOaUqN8twxQ_oyZUtItQDx80Ah6J5URTFaU1VRSkhISk5HT0ZQNkFHR0lPMjFPTS4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+        </div>
+    </div>
+</div>
+
+    <div id="modal-sections5" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Application Form</h2>
+        </div>
+        <div class="uk-modal-body">
+        <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=68-3CH6Jm0aUNpdOaUqN8twxQ_oyZUtItQDx80Ah6J5UQjFQSjNOMVpWT0M2SEpJN0xKTTQ3WjI4NC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+        </div>
+    </div>
+</div>
+
+    <div id="modal-sections6" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Application Form</h2>
+        </div>
+        <div class="uk-modal-body">
+        <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=68-3CH6Jm0aUNpdOaUqN8twxQ_oyZUtItQDx80Ah6J5UOVZCWEdESkc2TUVHTVZKSktZV0sxTlJTTi4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+        </div>
+    </div>
+</div>
+
+
+    <script src="/static/assets/js/jquery.min.js"></script>
+      <script src="/static/assets/js/browser.min.js"></script>
+      <script src="/static/assets/js/breakpoints.min.js"></script>
+      <script src="/static/assets/js/util.js"></script>
+      <script src="/static/assets/js/main.js"></script>
+
+{% endblock %}
+
+<!--
+Full Stack Development
+<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=68-3CH6Jm0aUNpdOaUqN8twxQ_oyZUtItQDx80Ah6J5URTFaU1VRSkhISk5HT0ZQNkFHR0lPMjFPTS4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+Data Scientist
+<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=68-3CH6Jm0aUNpdOaUqN8twxQ_oyZUtItQDx80Ah6J5UQjFQSjNOMVpWT0M2SEpJN0xKTTQ3WjI4NC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+Business Development Lead
+<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=68-3CH6Jm0aUNpdOaUqN8twxQ_oyZUtItQDx80Ah6J5UOVZCWEdESkc2TUVHTVZKSktZV0sxTlJTTi4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+-->
