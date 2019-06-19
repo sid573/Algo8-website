@@ -108,6 +108,11 @@
               .text {font-size: 11px}
               #
             }
+
+            .uk-navbar-dropdown-nav > li > a {
+                color: black;
+              }
+
         </style>
         <link rel="stylesheet" href="/static/assets/css/main.css" />
         {% block style%}{%endblock%}
@@ -118,7 +123,7 @@
     <!-- Navbar -->
     <nav class="uk-navbar-container" uk-navbar uk-sticky style="background-color: black;">
       <div class="uk-navbar-left">
-        <a href="/"><img src="static/assets/img/logo_nav1.svg" width="80px" style="padding-left:30px; "></a>
+        <a href="/"><img src="static/assets/img/logo_nav1.svg" width="100px" style="padding-left:30px; "></a>
       </div>
     <div class="uk-navbar-right">
 
@@ -162,18 +167,22 @@
           <div class="content">
             <section>
                 <script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(28.5763927,77.3441077),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
+                  function myMap() {
+                  var mapProp= {
+                    center:new google.maps.LatLng(28.5763927,77.3441077),
+                    zoom:5,
+                  };
+                  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                  }
+                  </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmOgEFIZH0KPkUYmBi6B31ujqBmiq4WU0&callback=myMap"></script>
+                  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmOgEFIZH0KPkUYmBi6B31ujqBmiq4WU0&callback=myMap"></script>
 
-              <div height = "300" width = "500" class="fb-page" data-href="https://www.facebook.com/algo8ai/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/algo8ai/" class="fb-xfbml-parse-ignore"><a href="https://www.google.com/maps/dir/28.5763927,77.3441077/algo8/@28.5974521,77.3230187,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390ce5c8586de8c1:0x89fbe12a3a42e896!2m2!1d77.3739061!2d28.6270134">Algo8, A-116 Sector-62, Noida, Uttar Pradesh-222002, India</a></blockquote></div> <br><br>
+              <div height = "300" width = "500" class="fb-page" data-href="https://www.facebook.com/algo8ai/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/algo8ai/" class="fb-xfbml-parse-ignore"><a href="https://www.google.com/maps/dir/28.5763927,77.3441077/algo8/@28.5974521,77.3230187,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390ce5c8586de8c1:0x89fbe12a3a42e896!2m2!1d77.3739061!2d28.6270134">
+                <img src="/static/algo_images/map.png"><br>
+              Algo8, A-116 Sector-62, Noida, Uttar Pradesh-222002, India
+            </a>
+            </blockquote></div> <br><br>
             </section>
             <section>
               <h3>Quick links</h3>
