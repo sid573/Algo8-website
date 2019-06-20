@@ -89,20 +89,20 @@ input, select, textarea {
 
 /* Typography */
 html {
-  font-size: 13pt; }
+  font-size: 16pt; }
   @media screen and (max-width: 1680px) {
     html {
-      font-size: 11pt; } }
+      font-size: 14pt; } }
   @media screen and (max-width: 980px) {
     html {
-      font-size: 12pt; } }
+      font-size: 13pt; } }
   @media screen and (max-width: 480px) {
     html {
-      font-size: 11pt; } }
+      font-size: 12pt; } }
 
 body {
   background-color: #ffffff;
-  color: #444444; }
+  color:black; }
 
 body, input, select, textarea {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
