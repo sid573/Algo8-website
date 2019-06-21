@@ -98,7 +98,7 @@ html {
       font-size: 13pt; } }
   @media screen and (max-width: 480px) {
     html {
-      font-size: 12pt; } }
+      font-size: 10pt; } }
 
 body {
   background-color: #ffffff;
