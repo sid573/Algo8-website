@@ -1,0 +1,210 @@
+{% extends "layouts/unknownbase.html" %}
+{% block style%}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="/static/assets/css/main.css" />
+    <style type="text/css">
+
+      .boxstyle{
+              visibility: visible;     padding: 50px;
+              background-color:  #0095ec3d; 
+          }
+      .box21style{
+            visibility: visible; padding: 50px;
+            background-color: #a93ced57; 
+        }
+        .box2style
+        {
+            visibility: visible;    padding: 50px;
+            background-color: #0095ec3d; 
+        }
+        /*next 2nd box section about */
+        .box3style
+        {
+            visibility: visible;   padding: 50px;
+            background-color: #a93ced57;  height: 345px;
+        }
+        .box4style
+        {
+            visibility: visible;   padding: 50px;
+            background-color: #0095ec3d;  height: 345px;
+        }
+
+      .box{
+          padding:60px 0px;
+      }
+
+      .box-part{
+          background:#FFF;
+          border-radius:10px;
+          padding:60px 10px;
+          margin:30px 0px;
+      }
+
+      .box-part:hover{
+          background:#4183D7;
+          color: #FFFFFF;
+      }
+
+      .box-part:hover .fa , 
+      .box-part:hover .title , 
+      .box-part:hover .text ,
+      .box-part:hover a{
+          color:#FFF;
+          -webkit-transition: all 1s ease-out;
+          -moz-transition: all 1s ease-out;
+          -o-transition: all 1s ease-out;
+          transition: all 1s ease-out;
+      }
+
+      .text{
+          margin:20px 0px;
+      }
+
+      .fa{
+           color:#4183D7;
+      }
+
+    </style>
+{%endblock%}
+{% block body %}
+    
+    <!-- Banner -->
+<div class="uk-height-medium  uk-flex-middle uk-background-cover uk-light" 
+data-src="/static/algo_images/bank_case.jpg" uk-img style="color: black;">
+          
+</div>
+<br><br><br>
+    <section class="intro telecom">
+        <div class="container">
+            <div class="intro-details">
+                <div class="intro-info">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-wrapper section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-12">
+                    <div class="blog-details">
+                        <div class="blog-contents noselect">
+                            <h2 class="blog-title">
+                                Business Challenge
+                            </h2>
+                            <p>
+                                Hutchison3, a leading telecom company, wanted to identify the customers with high risk of churning out of operator’s network or data/ voice services. Also telco wanted to understand the data consumption patterns to create customized offerings and segmented/ granular targeting.
+                            </p>
+                            <h2 class="blog-title">
+                                Transformation
+                            </h2>
+                            <p>
+                                Algo8’s cutting edge solution enabled the client  to accurately  identify the churning customers by building powerful machine learning algorithms. The data consumption patterns were also identified through BIGDATA setup and cluster computing.
+                            </p>
+                            <h2 class="blog-title">
+                                Results
+                            </h2>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        7% reduction in annual data –churn rate for the operator
+                                    </div>
+                                    <div class="col-sm">
+                                        Churning customer identified with 93% accuracy.
+                                    </div>
+                                    <div class="col-sm">
+                                        Pinpointing individual customer behavior as compared to consumer group for customized plans
+                                    </div>
+                                </div>
+                            </div>
+                            <h2 class="blog-title">
+                                Business challenge story <br />
+                                <span>Solving big business challenges</span>
+                            </h2>
+                            <p>
+                                High competition among telecom companies amid aggressive pricing of fast data has been widespread in the telecom industry and it continues to remain intense as the larger operators are contesting to acquire subscribers of the exiting telecom companies.<br />Telco has historically been a capital-intensive industry with high fixed costs, which has put pressure on telecom operators to maximise customer retention .
+                            </p>
+                            <p>
+                                A leading telecom company , Hutchison3, faced challenge while trying to identify customers with high risk of churning out of operator’s network or data/ voice services.Telco also wanted Suggestions around corrective actions to retain these high risk customers.
+                            </p>
+                            <p>
+                                The other big, rather impossible challenge was to highlight data consumption patterns of every customer in order to create customized offerings and segmented/granular targeting.This task was particularly difficult as the data usage behavior changes based on type of apps being used as well as time of the day, location, etc.
+                            </p>
+                            <h2 class="blog-title">
+                                Transformation story <br />
+                                <span>Harnessing the power of analytics</span>
+                            </h2>
+                            <p>
+                                Telecom is one of the largest industries in the world, hence the value created by augmenting AI and machine learning to this artery of connectivity is also stupendous.This was particularly realised when Algo8 collaborated with Hutchison3 to understand the challenge and the direct impact it would have on business and revenue.
+                            </p>
+                            <p>
+                                Algo8 incorporated various data sources such as CRM, billing, plans, CDR, XDR and Support along with engineering more than 1200 features to capture all characteristics for creating a 360° view of each customer .
+                            </p>
+                            <p>
+                                Machine learning algorithms such as Support Vector machine(SVM) and XGBoost were used to create an ensemble model. This model was used to predict the churn rate. Survival Analysis was done to tentatively tell the time before churn.
+                            </p>
+                            <p>
+                                In order to Highlight data consumption patterns of customers, feature creation was done through Bigdata setup and cluster computing. These features were based upon Recency, frequency, volume, type of website/app, type of content, time of day, location, plan, device etc.
+                            </p>
+                            <p>
+                                This is truly business redefined!
+                            </p>
+                           
+                            <h2 class="blog-title">
+                                Results story <br />
+                                <span>Transforming data into real results</span>
+                            </h2>
+                            <p>
+                                Algo8’s churn prediction model , generated a 93% accurate prediction. Not only did it identify high risk customers but also affirmed the most impactful reason of their dissatisfaction. This directly impacted revenues with a 7% reduction in the annual churn rate for the operator.
+                            </p>
+                            <p>
+                                Customer data consumption pattern was pinpointed at individual level as compared to the consumer group to identify up/X-sell opportunities in terms of customized plans.This acutely helped the client to create personalized marketing campaigns, laser-targeted advertising, and deep customer engagement .
+                            </p>
+                            <p>
+                                Algo8 has worked with 3 Telecom companies and the results have been overwhelming each time. From an AI enabled organisation, Algo8 is envisioning a world where AI and ML are symbiotically linked to the way we perceive and perform activities across various spheres of life.
+                            </p>
+                            <h2 class="blog-title">
+                                About CLIENT - Hutchison 3
+                            </h2>
+                            <p>
+                                Hutchison 3 Indonesia provides telecommunications services in Indonesia. It offers mobile data, voice, and SMS services, as well as mobile broadband services. The company was founded in 2004 and is based in Jakarta Selatan, Indonesia.
+                            </p>
+                            <h2 class="blog-title">
+                                Relevant Solution components
+                            </h2>
+                            <ul>
+                                <li>Machine Learning SaaS</li>
+                                <li>Deep Learning SaaS</li>
+                            </ul>
+                            <h2 class="blog-title">
+                                Take the next step
+                            </h2>
+                            <p>
+                                Algo8 builds potent data driven tech that is decisive in driving our client’s growth.
+                                Learn how Algo8 can help you
+                            </p>
+                        </div>
+                        <!-- Ends: .blog-contents -->
+                    </div>
+                    <!-- Ends: .blog-details -->
+                </div>
+                <!-- Ends: .col-lg-8 -->
+            </div>
+        </div>
+        <!-- Ends: .contianer -->
+    </section>
+      <script src="/static/assets/js/jquery.min.js"></script>
+      <script src="/static/assets/js/browser.min.js"></script>
+      <script src="/static/assets/js/breakpoints.min.js"></script>
+      <script src="/static/assets/js/util.js"></script>
+      <script src="/static/assets/js/main.js"></script>
+
+
+{% endblock %}
+
+
+
+
