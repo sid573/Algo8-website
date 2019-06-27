@@ -7,6 +7,8 @@ import pandas as pd
 import datetime
 from nltk.sentiment import vader
 #import re
+import nltk
+nltk.download('vader_lexicon')
 import tweepy #https://github.com/tweepy/tweepy
 sia= vader.SentimentIntensityAnalyzer()  
 import os
